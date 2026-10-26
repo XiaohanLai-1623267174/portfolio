@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 1150" width="620" height="1150" role="img">
+<defs><marker id="ah-hero-agent" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M1 1 L10 6 L1 11 z" fill="var(--border-strong)"/></marker></defs>
+<rect width="620" height="1150" fill="var(--canvas-warm)"/>
+<text x="44" y="76" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="38" font-weight="700" fill="var(--ink)">Agent 怎么跑</text>
+<rect x="44" y="104" width="532" height="130" rx="20" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="3"/>
+<text x="310" y="166" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="42" font-weight="700" fill="var(--ink)" text-anchor="middle">用户一句话</text>
+<text x="310" y="212" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="30" font-weight="500" fill="var(--ink-muted)" text-anchor="middle">「帮我找去年的评奖办法」</text>
+<path d="M310 240 V282" stroke="var(--border-strong)" stroke-width="3.5" marker-end="url(#ah-hero-agent)"/>
+<rect x="44" y="286" width="532" height="130" rx="20" fill="var(--surface)" stroke="var(--accent)" stroke-width="3"/>
+<text x="310" y="348" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="42" font-weight="700" fill="var(--ink)" text-anchor="middle">意图识别</text>
+<text x="310" y="394" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="30" font-weight="500" fill="var(--ink-muted)" text-anchor="middle">查知识库 / 闲聊</text>
+<path d="M310 422 V464" stroke="var(--border-strong)" stroke-width="3.5" marker-end="url(#ah-hero-agent)"/>
+<rect x="44" y="468" width="532" height="332" rx="20" fill="var(--surface-muted)" stroke="var(--violet)" stroke-width="3"/>
+<text x="310" y="522" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="42" font-weight="700" fill="var(--ink)" text-anchor="middle">ReAct 循环</text>
+<circle cx="84" cy="567" r="15" fill="var(--violet)" opacity="0.16"/>
+<text x="84" y="577" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="27" font-weight="700" fill="var(--violet)" text-anchor="middle">①</text>
+<text x="116" y="578" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="29" font-weight="500" fill="var(--ink)">思考：这问题要查库吗</text>
+<circle cx="84" cy="625" r="15" fill="var(--violet)" opacity="0.16"/>
+<text x="84" y="635" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="27" font-weight="700" fill="var(--violet)" text-anchor="middle">②</text>
+<text x="116" y="636" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="29" font-weight="500" fill="var(--ink)">选工具：定位 / 入库 / 检索</text>
+<circle cx="84" cy="683" r="15" fill="var(--violet)" opacity="0.16"/>
+<text x="84" y="693" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="27" font-weight="700" fill="var(--violet)" text-anchor="middle">③</text>
+<text x="116" y="694" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="29" font-weight="500" fill="var(--ink)">观察：结果回到下一轮</text>
+<text x="116" y="740" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="27" font-weight="500" fill="var(--ink-muted)">find_pdf · ingest_pdf</text>
+<text x="116" y="776" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="27" font-weight="500" fill="var(--ink-muted)">search_knowledge</text>
+<path d="M550 726 V566" stroke="var(--violet)" stroke-width="3" fill="none" stroke-dasharray="9 8" marker-end="url(#ah-hero-agent)"/>
+<path d="M310 806 V838" stroke="var(--border-strong)" stroke-width="3.5" marker-end="url(#ah-hero-agent)"/>
+<rect x="44" y="842" width="532" height="116" rx="20" fill="var(--surface)" stroke="var(--accent)" stroke-width="3"/>
+<text x="310" y="892" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="38" font-weight="700" fill="var(--ink)" text-anchor="middle">预算守卫</text>
+<text x="310" y="940" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="29" font-weight="500" fill="var(--ink-subtle)" text-anchor="middle">第 n/8 步 · 超预算中止</text>
+<path d="M310 966 V1006" stroke="var(--border-strong)" stroke-width="3.5" marker-end="url(#ah-hero-agent)"/>
+<rect x="44" y="1010" width="532" height="120" rx="20" fill="var(--accent-soft)" stroke="var(--accent)" stroke-width="3"/>
+<text x="310" y="1052" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="34" font-weight="700" fill="var(--ink)" text-anchor="middle">answer + sources</text>
+<text x="310" y="1098" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="29" font-weight="500" fill="var(--ink-muted)" text-anchor="middle">幂等覆盖 · 防重复</text>
+</svg>

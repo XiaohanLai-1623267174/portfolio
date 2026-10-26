@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 900" width="1200" height="900" role="img">
+<defs><marker id="ah" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M1 1 L10 6 L1 11 z" fill="#CFCABF"/></marker></defs>
+<rect width="1200" height="900" fill="#FAF8F4"/>
+<rect x="56" y="200" width="200" height="100" rx="20" fill="#FFFFFF" stroke="#E6E3DC" stroke-width="2.5"/>
+<text x="70" y="262" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="30" font-weight="500" fill="#15181D">这段文字明显超出方框宽度</text>
+<text x="60" y="420" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="34" font-weight="500" fill="#15181D">重叠文字甲</text>
+<text x="64" y="430" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="34" font-weight="500" fill="#15181D">重叠文字乙</text>
+<text x="1000" y="880" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="34" font-weight="500" fill="#15181D">越界文字越界文字越界文字</text>
+</svg>

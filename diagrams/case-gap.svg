@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800" width="1200" height="800" role="img">
+<defs><marker id="ah" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M1 1 L10 6 L1 11 z" fill="#CFCABF"/></marker></defs>
+<rect width="1200" height="800" fill="#FAF8F4"/>
+<text x="56" y="88" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="46" font-weight="700" fill="#15181D">同一条追问，改造前后</text>
+<text x="56" y="136" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="28" font-weight="500" fill="#575D68">7 条人工追问样本，同一套装置前后各测一次；句式为例示</text>
+<rect x="56" y="184" width="500" height="520" rx="24" fill="#FFFFFF" stroke="#CFCABF" stroke-width="3"/>
+<rect x="644" y="184" width="500" height="520" rx="24" fill="#FFFFFF" stroke="#2B5CE6" stroke-width="3"/>
+<text x="88" y="232" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="32" font-weight="700" fill="#6E7684">改造前</text>
+<text x="676" y="232" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="32" font-weight="700" fill="#2B5CE6">改造后</text>
+<rect x="88" y="256" width="456" height="96" rx="20" fill="#F4F2ED" stroke="#E6E3DC" stroke-width="2.5"/>
+<text x="316" y="316" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="34" font-weight="600" fill="#15181D" text-anchor="middle">「那第二条呢？」</text>
+<path d="M316 360 V404" stroke="#CFCABF" stroke-width="3.5" marker-end="url(#ah)"/>
+<rect x="676" y="256" width="456" height="96" rx="20" fill="#F4F2ED" stroke="#E6E3DC" stroke-width="2.5"/>
+<text x="904" y="316" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="34" font-weight="600" fill="#15181D" text-anchor="middle">「那第二条呢？」</text>
+<path d="M904 360 V404" stroke="#CFCABF" stroke-width="3.5" marker-end="url(#ah)"/>
+<text x="88" y="444" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="28" font-weight="500" fill="#15181D">① 当成一个全新问题</text>
+<text x="88" y="492" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="28" font-weight="500" fill="#15181D">② 检索到另一份文件</text>
+<text x="88" y="540" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="28" font-weight="500" fill="#15181D">③ 答非所问</text>
+<text x="676" y="444" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="28" font-weight="500" fill="#15181D">① 带上上一轮问答 + 工具结果</text>
+<text x="676" y="492" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="28" font-weight="500" fill="#15181D">② 改写成完整问句</text>
+<text x="676" y="540" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="28" font-weight="500" fill="#15181D">③ 命中同一份文件，答对</text>
+<rect x="88" y="580" width="336" height="64" rx="32" fill="#F4F2ED" stroke="#E6E3DC" stroke-width="2.5"/>
+<text x="256" y="622" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="32" font-weight="700" fill="#15181D" text-anchor="middle">7 条里误判 4 条</text>
+<rect x="676" y="580" width="336" height="64" rx="32" fill="#F4F2ED" stroke="#E6E3DC" stroke-width="2.5"/>
+<text x="844" y="622" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="32" font-weight="700" fill="#2B5CE6" text-anchor="middle">7 条里误判 0 条</text>
+<path d="M566 304 H634" stroke="#CFCABF" stroke-width="3.5" marker-end="url(#ah)"/>
+<text x="56" y="760" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="26" font-weight="500" fill="#6E7684">误判样本只有 7 条，结论只覆盖这一组样本</text>
+</svg>

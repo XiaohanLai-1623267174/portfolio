@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000" width="1000" height="1000" role="img">
+<defs><marker id="ah" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M1 1 L10 6 L1 11 z" fill="#CFCABF"/></marker></defs>
+<rect width="1000" height="1000" fill="#FAF8F4"/>
+<text x="60" y="94" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="50" font-weight="700" fill="#15181D">SSE 事件流</text>
+<text x="60" y="142" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="30" font-weight="500" fill="#575D68">同一条流里，token 与工具事件分帧</text>
+<path d="M150 186 V862" stroke="#E6E3DC" stroke-width="3.5"/>
+<circle cx="150" cy="220" r="13" fill="#2B5CE6"/>
+<text x="94" y="234" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="28" font-weight="700" fill="#6E7684" text-anchor="end">1</text>
+<text x="192" y="232" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="44" font-weight="700" fill="#15181D">token</text>
+<text x="192" y="280" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="34" font-weight="500" fill="#575D68">逐字推送 · 首帧 0.97s</text>
+<circle cx="150" cy="366" r="13" fill="#6B4FD8"/>
+<text x="94" y="380" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="28" font-weight="700" fill="#6E7684" text-anchor="end">2</text>
+<text x="192" y="378" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="44" font-weight="700" fill="#15181D">token_reset</text>
+<text x="192" y="426" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="34" font-weight="500" fill="#575D68">撤回工具轮前的模型前言</text>
+<circle cx="150" cy="512" r="13" fill="#0E8F80"/>
+<text x="94" y="526" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="28" font-weight="700" fill="#6E7684" text-anchor="end">3</text>
+<text x="192" y="524" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="44" font-weight="700" fill="#15181D">tool_call</text>
+<text x="192" y="572" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="34" font-weight="500" fill="#575D68">带「第 n/8 步」进度</text>
+<circle cx="150" cy="658" r="13" fill="#6B4FD8"/>
+<text x="94" y="672" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="28" font-weight="700" fill="#6E7684" text-anchor="end">4</text>
+<text x="192" y="670" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="44" font-weight="700" fill="#15181D">sources</text>
+<text x="192" y="718" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="34" font-weight="500" fill="#575D68">来源清单单独事件</text>
+<circle cx="150" cy="804" r="13" fill="#2B5CE6"/>
+<text x="94" y="818" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="28" font-weight="700" fill="#6E7684" text-anchor="end">5</text>
+<text x="192" y="816" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="44" font-weight="700" fill="#15181D">answer</text>
+<text x="192" y="864" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="34" font-weight="500" fill="#575D68">终态幂等覆盖，防重复</text>
+<text x="60" y="938" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="30" font-weight="500" fill="#6E7684">token_reset 解决「模型先答一半又去调工具」的错位</text>
+</svg>

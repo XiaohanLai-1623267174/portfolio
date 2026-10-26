@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 620 1150" width="620" height="1150" role="img">
+<defs><marker id="ah" viewBox="0 0 12 12" refX="9" refY="6" markerWidth="6.5" markerHeight="6.5" orient="auto-start-reverse"><path d="M1 1 L10 6 L1 11 z" fill="#CFCABF"/></marker></defs>
+<rect width="620" height="1150" fill="#FAF8F4"/>
+<text x="44" y="76" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="38" font-weight="700" fill="#15181D">一次提问的完整链路</text>
+<rect x="44" y="104" width="532" height="146" rx="20" fill="#E7EDFF" stroke="#2B5CE6" stroke-width="3"/>
+<text x="310" y="166" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="44" font-weight="700" fill="#15181D" text-anchor="middle">一句提问</text>
+<text x="310" y="216" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="31" font-weight="500" fill="#575D68" text-anchor="middle">「综测加分怎么算」</text>
+<path d="M310 256 V300" stroke="#CFCABF" stroke-width="3.5" marker-end="url(#ah)"/>
+<rect x="44" y="306" width="532" height="206" rx="20" fill="#FFFFFF" stroke="#2B5CE6" stroke-width="3"/>
+<text x="310" y="366" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="44" font-weight="700" fill="#15181D" text-anchor="middle">Agent 编排</text>
+<text x="310" y="416" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="30" font-weight="500" fill="#575D68" text-anchor="middle">find_pdf · ingest_pdf</text>
+<text x="310" y="460" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="30" font-weight="500" fill="#575D68" text-anchor="middle">search_knowledge</text>
+<text x="310" y="500" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="29" font-weight="500" fill="#6E7684" text-anchor="middle">步数预算 8 · 超预算中止</text>
+<path d="M310 518 V562" stroke="#CFCABF" stroke-width="3.5" marker-end="url(#ah)"/>
+<rect x="44" y="568" width="532" height="146" rx="20" fill="#EEEAFB" stroke="#6B4FD8" stroke-width="3"/>
+<text x="310" y="630" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="44" font-weight="700" fill="#15181D" text-anchor="middle">双路召回</text>
+<text x="310" y="680" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="30" font-weight="500" fill="#575D68" text-anchor="middle">Chroma MMR + BM25</text>
+<path d="M310 720 V764" stroke="#CFCABF" stroke-width="3.5" marker-end="url(#ah)"/>
+<rect x="44" y="770" width="532" height="146" rx="20" fill="#EEEAFB" stroke="#6B4FD8" stroke-width="3"/>
+<text x="310" y="832" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="44" font-weight="700" fill="#15181D" text-anchor="middle">bge 重排</text>
+<text x="310" y="882" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="30" font-weight="500" fill="#575D68" text-anchor="middle">取 Top-5 送生成</text>
+<path d="M310 922 V966" stroke="#CFCABF" stroke-width="3.5" marker-end="url(#ah)"/>
+<rect x="44" y="972" width="532" height="146" rx="20" fill="#E7EDFF" stroke="#2B5CE6" stroke-width="3"/>
+<text x="310" y="1034" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="36" font-weight="700" fill="#15181D" text-anchor="middle">回答 + [1] [2] 角标</text>
+<text x="310" y="1084" font-family="Segoe UI, PingFang SC, Microsoft YaHei, system-ui, sans-serif" font-size="30" font-weight="500" fill="#575D68" text-anchor="middle">sources 独立事件（可折叠）</text>
+</svg>
