@@ -10,7 +10,7 @@
 
 | 路径 | 说明 |
 |---|---|
-| `deploy/index.html` | **交付物本体**。单文件，106 KB，含全部内容与内联 SVG 图示 |
+| `deploy/index.html` | **交付物本体**。单文件，136 KB（139,321 字节），含全部内容、内联 SVG 图示与内嵌 Inter 子集 |
 | `deploy/og-image.png` | 社交分享卡片，1200×630。页面本身不引用它，只被 `og:image` 指向 |
 | `DESIGN.md` | 设计说明：色板、对比度实测值、字号与断点、图示几何、验收方法 |
 | `diagrams/build-diagrams.mjs` | 图示生成器。产物同时输出 `.svg` 与 `.inline.svg`（后者内联进页面） |
